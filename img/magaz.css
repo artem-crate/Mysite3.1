@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+  background-image: url(https://static.wixstatic.com/media/687d49_c6fa5a72824841399bcd15a55e2f41bb.png)
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1B2536;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Lobster', cursive;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #7DABF5;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: black;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+a:hover{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+p{
+  background-color: grey;
+  border-color: white;
+  color: orange;
+  border: 4px;
+  border-radius: 20px;
+  padding: 20px 30px;
+  font-family: 'Lobster', cursive;
+}
+h1{
+  color: orange;
+  font-size: 56px;
+  font-family: 'Lobster', cursive;
